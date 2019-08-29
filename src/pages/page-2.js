@@ -7,9 +7,16 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <h2>My works</h2>
+    <div class="x45 works">
+      <h3><a class="works-a" href="https://bikelund.github.io/X45-001/" target="_blank">X45-001 Czar'Krang Colossus Transit</a></h3>
+    </div>
+    <div class="oakley works">
+      <h3><a class="works-a-b" href="https://samirergaibi.github.io/oakley/" target="_blank">Oakley</a></h3>
+    </div>
+    <div class="f4 works">
+      <h3><a class="works-a" href="https://tobberos.github.io/Grupp6/" target="_blank">Fantastic Four</a></h3>
+    </div>
   </Layout>
 )
 

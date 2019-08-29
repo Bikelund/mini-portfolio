@@ -1,3 +1,56 @@
+.works {
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  transition: all .5s;
+}
+.works:hover {
+  filter: contrast(150%)
+}
+.x45 {
+  background-image: url(../images/x45.jpg);
+  background-size: cover;
+}
+.f4 {
+  background-image: url(../images/f4.jpg);
+  background-size: cover;
+}
+.oakley {
+  background-image: url(../images/oakley.jpg);
+  background-size: cover;
+}
+.works-a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+.works-a-b {
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+.works-a:hover, .works-a-b:hover {
+  transform: scale(1.2)
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.buddy {
+  width: 500px;
+  height: 300px;
+  background-image: url(../images/buddy.jpg);
+  background-size: cover;
+}
+.ul-contact {
+  list-style-type: none;
+  margin-top: 2rem;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -42,10 +95,12 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  transition: all .5s;
 }
 a:active,
 a:hover {
   outline-width: 0;
+  color: tomato;
 }
 abbr[title] {
   border-bottom: none;
@@ -251,6 +306,7 @@ h2 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
+  text-align: center;
   font-size: 1.62671rem;
   line-height: 1.1;
 }

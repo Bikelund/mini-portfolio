@@ -32,13 +32,26 @@ const Layout = ({ children }) => {
           maxWidth: 960,
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
+          position: "relative",
+          minHeight: "80vh",
         }}
       >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
+        <main
+        style={{
+          paddingBottom: "2.5rem",
+        }}>{children}</main>
+        <footer
+        style={{
+          padding: "20px 0",
+          textAlign: "center",
+
+          position: "absolute",
+          bottom: "0",
+          width: "100%",
+        }}>
+          © Bikelund {new Date().getFullYear()}, Visit my
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://github.com/Bikelund">Github</a>
         </footer>
       </div>
     </>
